@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Home</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Greenbite/CSS/style.css">
+    <link rel="icon" href="./Greenbite/Favicons/favicon-32x32.png" type="image/png">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">GreenBite</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="workout.html">Workout</a>
+            <a href="mindfulness.html">Mindfulness</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="./Greenbite/Images/indexmainpic.jpg" alt="GreenBite Hero" class="hero-img">
+        <div class="hero-text">
+            <h1 id="slogan">Eat Well, Live Well</h1>
+            <p>Embrace a vibrant life with GreenBite’s holistic wellness journey.</p>
+            <a href="recipes.html" class="cta-btn">Discover Recipes</a>
+        </div>
+    </section>
+
+    <!-- Health Tips Section -->
+    <section class="health-tips" id="health-tips">
+        <h2>Health Tip of the Day</h2>
+        <div class="tip-card" id="daily-tip">
+            <p>Loading tip...</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h3>Explore</h3>
+            <a href="recipes.html">Healthy Recipes</a><br>
+            <a href="calculator.html">Nutrition Calculator</a><br>
+            <a href="workout.html">Workout Generator</a><br>
+            <a href="mindfulness.html">Mindfulness</a>
+        </div>
+        <div>
+            <h3>Connect</h3>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="./Scripts/index.js"></script>
+</body>
+
+</html>

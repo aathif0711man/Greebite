@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sedentary",
+    "description": "Little or no exercise",
+    "factor": 1.2
+  },
+  {
+    "name": "Lightly active",
+    "description": "Light exercise/sports 1–3 days/week",
+    "factor": 1.375
+  },
+  {
+    "name": "Moderately active",
+    "description": "Moderate exercise 3–5 days/week",
+    "factor": 1.55
+  },
+  {
+    "name": "Very active",
+    "description": "Hard exercise 6–7 days/week",
+    "factor": 1.725
+  },
+  {
+    "name": "Super active",
+    "description": "Very hard exercise/physical job",
+    "factor": 1.9
+  }
+]

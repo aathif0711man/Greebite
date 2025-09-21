@@ -1,0 +1,70 @@
+{
+  "arms": {
+    "none": [
+      "Push-ups",
+      "Tricep Dips",
+      "Arm Circles"
+    ],
+    "dumbbells": [
+      "Bicep Curls",
+      "Shoulder Press",
+      "Lateral Raise"
+    ],
+    "resistance band": [
+      "Band Curls",
+      "Overhead Press",
+      "Band Pull Aparts"
+    ]
+  },
+  "legs": {
+    "none": [
+      "Squats",
+      "Lunges",
+      "Calf Raises"
+    ],
+    "dumbbells": [
+      "Goblet Squats",
+      "Deadlifts",
+      "Step-ups"
+    ],
+    "resistance band": [
+      "Band Squats",
+      "Glute Bridges",
+      "Leg Press"
+    ]
+  },
+  "full": {
+    "none": [
+      "Burpees",
+      "Jumping Jacks",
+      "Mountain Climbers"
+    ],
+    "dumbbells": [
+      "Thrusters",
+      "Clean & Press",
+      "Snatches"
+    ],
+    "resistance band": [
+      "Band Deadlifts",
+      "Squat to Press",
+      "Band Rows"
+    ]
+  },
+  "core": {
+    "none": [
+      "Plank",
+      "Sit-ups",
+      "Leg Raises"
+    ],
+    "dumbbells": [
+      "Russian Twists",
+      "Dumbbell Side Bends",
+      "Weighted Sit-ups"
+    ],
+    "resistance band": [
+      "Band Twists",
+      "Pallof Press",
+      "Band Crunches"
+    ]
+  }
+}

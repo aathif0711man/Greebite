@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Home</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Greenbite/CSS/style.css">
+    <link rel="icon" href="./Greenbite/Favicons/favicon-32x32.png" type="image/png">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">GreenBite</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="workout.html">Workout</a>
+            <a href="mindfulness.html">Mindfulness</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+
+    </nav>
+
+    <section class="contact-section">
+        <h2>Contact & Feedback</h2>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <p><strong>Address:</strong> 123 Green Street, Colombo, Sri Lanka</p>
+            <p><strong>Phone:</strong> +94 77 123 4567</p>
+            <p><strong>Email:</strong> info@greenbite.com</p>
+            <p><strong>Open Hours:</strong><br>
+                Mon – Fri: 24 Hours<br>
+                Sat – Sun: 24 Hours
+            </p>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.880765063645!2d79.85859050798766!3d6.904859218590712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25964809ce65d%3A0x279199ab6b495503!2sRoyal%20College!5e0!3m2!1sen!2slk!4v1758358375856!5m2!1sen!2slk"
+                width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <!-- Feedback Form -->
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <span class="error" id="nameError"></span>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com">
+            <span class="error" id="emailError"></span>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message..."></textarea>
+            <span class="error" id="messageError"></span>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <p id="confirmation" class="confirmation"></p>
+
+
+
+        <!-- FAQ Accordion -->
+        <div class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item">
+                <button class="faq-question">What is GreenBite?</button>
+                <div class="faq-answer">GreenBite is a health-focused website offering recipes, workouts, and
+                    mindfulness tools.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How do I track my progress?</button>
+                <div class="faq-answer">You can track completed sessions in the Mindfulness page or saved workouts in
+                    the Workout Generator.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I save my favorite recipes?</button>
+                <div class="faq-answer">Yes, your saved recipes are remembered across sessions using localStorage.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h3>Explore</h3>
+            <a href="recipes.html">Healthy Recipes</a><br>
+            <a href="calculator.html">Nutrition Calculator</a><br>
+            <a href="workout.html">Workout Generator</a><br>
+            <a href="mindfulness.html">Mindfulness</a>
+        </div>
+        <div>
+            <h3>Connect</h3>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="Scripts/contact.js"></script>
+</body>
+
+</html>

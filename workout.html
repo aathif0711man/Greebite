@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite - Home</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Greenbite/CSS/style.css">
+    <link rel="icon" href="./Greenbite/Favicons/favicon-32x32.png" type="image/png">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">GreenBite</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="workout.html" class="active">Workout</a>
+            <a href="mindfulness.html">Mindfulness</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="workout-generator">
+        <h2>Workout Generator</h2>
+
+        <!-- Form -->
+        <form id="workoutForm">
+            <label for="bodyPart">Choose Body Part:</label>
+            <select id="bodyPart" required>
+                <option value="arms">Arms</option>
+                <option value="legs">Legs</option>
+                <option value="full">Full Body</option>
+                <option value="core">Core</option>
+            </select>
+
+            <label for="equipment">Choose Equipment:</label>
+            <select id="equipment" required>
+                <option value="none">None</option>
+                <option value="dumbbells">Dumbbells</option>
+                <option value="resistance band">Resistance Band</option>
+            </select>
+
+            <button type="submit">Generate Workout</button>
+        </form>
+
+        <!-- Workout Plan Display -->
+        <div id="workoutPlan"></div>
+
+        <!-- Timer Section -->
+        <div class="timer">
+            <h3 id="currentExercise">Select an exercise to start</h3>
+            <div id="countdown">00</div>
+            <button id="startTimer" disabled>Start Timer</button>
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h3>Explore</h3>
+            <a href="recipes.html">Healthy Recipes</a><br>
+            <a href="calculator.html">Nutrition Calculator</a><br>
+            <a href="workout.html">Workout Generator</a><br>
+            <a href="mindfulness.html">Mindfulness</a>
+        </div>
+        <div>
+            <h3>Connect</h3>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="Scripts/workout.js"></script>
+</body>
+
+</html>

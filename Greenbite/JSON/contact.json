@@ -1,0 +1,16 @@
+{
+    "faq": [
+        {
+            "question": "What is GreenBite?",
+            "answer": "GreenBite is a health-focused website offering recipes, workouts, and mindfulness tools."
+        },
+        {
+            "question": "How do I track my progress?",
+            "answer": "You can track completed sessions in the Mindfulness page or saved workouts in the Workout Generator."
+        },
+        {
+            "question": "Can I save my favorite recipes?",
+            "answer": "Yes, by using localStorage, your saved recipes are remembered across sessions."
+        }
+    ]
+}

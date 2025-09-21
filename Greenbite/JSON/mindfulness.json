@@ -1,0 +1,21 @@
+{
+    "ambientSounds": [
+        {
+            "name": "Forest",
+            "file": "./Greenbite/audio/ambient.mp3"
+        },
+        {
+            "name": "Ocean",
+            "file": "./Greenbite/audio/beach.mp3"
+        },
+        {
+            "name": "Rain",
+            "file": "./Greenbite/audio/rain.mp3"
+        }
+    ],
+    "breathingCycle": {
+        "inhaleSeconds": 4,
+        "exhaleSeconds": 4
+    },
+    "defaultSessionMinutes": 5
+}

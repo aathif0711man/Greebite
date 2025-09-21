@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Pol Roti",
+    "category": "breakfast",
+    "description": "A traditional Sri Lankan coconut flatbread, perfect for a hearty and healthy breakfast.",
+    "image": "./Greenbite/Images/polroti.jpg",
+    "ingredients": [
+      "2 cups whole wheat flour",
+      "1 cup grated fresh coconut",
+      "1 tsp salt",
+      "Water as needed",
+      "1 tbsp coconut oil"
+    ],
+    "instructions": [
+      "Mix flour, coconut, and salt in a bowl.",
+      "Add water gradually to form a soft dough.",
+      "Divide into small balls and roll into flatbreads.",
+      "Cook on a hot griddle with coconut oil until golden on both sides.",
+      "Serve with dhal or sambol."
+    ],
+    "nutrition": {
+      "Calories": "180 kcal",
+      "Protein": "5g",
+      "Carbs": "28g",
+      "Fat": "6g"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Gotukola Sambol",
+    "category": "lunch",
+    "description": "A vibrant, nutrient-packed Sri Lankan salad with gotukola (pennywort), rich in vitamins.",
+    "image": "./Greenbite/Images/gotukolasambol.jpg",
+    "ingredients": [
+      "2 cups fresh gotukola leaves, finely chopped",
+      "1/2 cup grated coconut",
+      "1 small red onion, finely chopped",
+      "1 green chili, sliced",
+      "1 tbsp lime juice",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Wash and finely chop gotukola leaves.",
+      "Mix gotukola, coconut, onion, and chili in a bowl.",
+      "Add lime juice and salt, then toss well.",
+      "Serve fresh as a side with rice or roti."
+    ],
+    "nutrition": {
+      "Calories": "100 kcal",
+      "Protein": "2g",
+      "Carbs": "8g",
+      "Fat": "7g"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fish Ambul Thiyal",
+    "category": "dinner",
+    "description": "A tangy and spicy Sri Lankan fish curry, cooked with goraka for a healthy, flavorful meal.",
+    "image": "./Greenbite/Images/fish.jpg",
+    "ingredients": [
+      "500g firm fish (e.g., tuna), cubed",
+      "2 pieces goraka (dried tamarind)",
+      "1 tsp turmeric powder",
+      "1 tsp chili powder",
+      "10 curry leaves",
+      "1 onion, sliced",
+      "1 tbsp coconut oil",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Soak goraka in warm water for 10 minutes, then blend into a paste.",
+      "Marinate fish with goraka paste, turmeric, chili powder, and salt for 30 minutes.",
+      "Heat coconut oil, sauté curry leaves and onion until golden.",
+      "Add marinated fish and cook on low heat for 15 minutes until dry and aromatic.",
+      "Serve with rice or roti."
+    ],
+    "nutrition": {
+      "Calories": "250 kcal",
+      "Protein": "22g",
+      "Carbs": "5g",
+      "Fat": "12g"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kiri Pani",
+    "category": "snack",
+    "description": "A refreshing Sri Lankan yogurt dessert with treacle, perfect for a healthy sweet treat.",
+    "image": "./Greenbite/Images/kiripani.jpg",
+    "ingredients": [
+      "1 cup plain yogurt (low-fat)",
+      "1/4 cup kithul treacle (or honey)",
+      "1 banana, sliced",
+      "1 tbsp chopped cashews",
+      "Pinch of cardamom powder"
+    ],
+    "instructions": [
+      "In a bowl, whisk yogurt until smooth.",
+      "Add kithul treacle and cardamom, mixing well.",
+      "Top with banana slices and chopped cashews.",
+      "Chill for 10 minutes and serve as a snack or dessert."
+    ],
+    "nutrition": {
+      "Calories": "150 kcal",
+      "Protein": "4g",
+      "Carbs": "20g",
+      "Fat": "5g"
+    }
+  }
+]

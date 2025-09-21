@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite - Home</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="./Greenbite/Favicons/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="./Greenbite/CSS/style.css">
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">GreenBite</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="recipes.html" class="active">Recipes</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="workout.html">Workout</a>
+      <a href="mindfulness.html">Mindfulness</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Recipes Section -->
+  <section class="recipes">
+    <h2>Healthy Recipes</h2>
+    <div class="filter-search">
+      <input type="text" id="search-input" placeholder="Search recipes by name...">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="snack">Snack</option>
+      </select>
+    </div>
+    <div class="recipe-grid" id="recipe-grid">
+      <!-- Recipe cards will be populated by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Recipe Modal -->
+  <div class="modal" id="recipe-modal">
+    <div class="modal-content">
+      <span class="modal-close" id="modal-close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-image" src="" alt="Recipe Image">
+      <h3>Ingredients</h3>
+      <ul id="modal-ingredients"></ul>
+      <h3>Steps</h3>
+      <ol id="modal-instructions"></ol>
+      <h3>Nutrition Info</h3>
+      <table id="modal-nutrition">
+        <thead>
+          <tr>
+            <th>Nutrient</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>
+      <h3>Explore</h3>
+      <a href="recipes.html">Healthy Recipes</a><br>
+      <a href="calculator.html">Nutrition Calculator</a><br>
+      <a href="workout.html">Workout Generator</a><br>
+      <a href="mindfulness.html">Mindfulness</a>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+      <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+    <div class="newsletter">
+      <h3>Newsletter</h3>
+      <form id="newsletter-form">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="Scripts/recipes.js"></script>
+</body>
+
+</html>
